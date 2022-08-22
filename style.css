@@ -1,0 +1,110 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#main-area{
+    display: flex;
+    
+}
+
+.nav-banner{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.color-name{
+    color: tomato;
+}
+
+.half-width{
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.half-width img{
+    width: 80%;
+    height: 100%;
+}
+p{
+    font-size: 20px;
+}
+
+.link-btn{
+    background-color: tomato;
+    color: white;
+    padding: 15px 30px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    display: inline-block;
+}
+
+.top-banner{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    margin-top: 100px;
+}
+.about-area{
+    text-align: center;
+    width: 100%;
+}
+.about-area h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.single-element{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin: 50px 80px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+.single-element img{
+    width: 90%;
+   margin-top: 20px;
+   margin-left: 15px;
+}
+
+.last-area{
+    display: flex;
+    box-shadow: 10px 10px 40px grey;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color:black;
+    text-align: center;
+}
+
+.color-name2{
+    color: cornflowerblue;
+}
+
+footer p{
+    color: brown;
+}
+
